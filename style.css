@@ -108,9 +108,6 @@ a:hover{
     text-align: center;
 }
 
-.firstSectionh2{
-
-}
 .industriesimg{
     transition: 0.5s all ease-in-out;
 }
@@ -156,6 +153,7 @@ a:hover{
     background-color: #fff9f2;
     padding-top: 50px;
     padding-bottom: 70px;
+    padding-left:200px;
     font-family:lora;
 }
 /* Top notch security div-container */
@@ -574,4 +572,4 @@ label{
 }
 .Getstartednew{
     background-color: #14394c;
-}groupmeeting
+}
