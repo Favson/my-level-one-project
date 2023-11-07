@@ -1,0 +1,577 @@
+body{
+    overflow-x:hidden;
+}
+
+.homenav{
+    padding-left: 300px;
+}
+#homenavdiv{
+    padding-left: 50px;
+    padding-right: 40px;
+}
+.homenavul{
+    gap: 25px;
+}
+
+a:hover{
+    border-bottom: #6d1830 3px solid;
+}
+
+
+/* Your opportunity to view everything*/
+.firstmaintext p{
+    width:55%;
+}
+.firstmain{
+    padding-top: 100px;
+}
+
+.firstmaintext{
+    width: 50%;
+    font-family:lora;
+}
+
+/* Your opportunity to view everything Downloadnow */
+.Downloadnow{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-family:lora;
+}
+/* Clients & Partners */
+.ClientsPartnertxt{
+    width: auto;
+    font-family:lora;
+}
+
+/* Create more immersive project presentations */
+.thirdmaintext h2,h5{
+    width: 70%;
+    font-family:lora;
+}
+
+.fourthmain h2,h5,p{
+    width: 60%;
+    font-family:lora;
+}
+
+/* Introducing NeRF*/
+.sectionIntroNeRF{
+   background-color: #fff9f2;
+   height: 700px;
+   padding-top: 200px;
+}
+.IntroNeRF{
+    background-color:#14394c;
+    height: 300px;
+    margin-bottom: 200px;
+    font-family:lora;
+}
+
+.IntroNeRF img{
+    margin-top: -200px;
+}
+
+.IntroNeRFphone{
+    width: 90%;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+.IntroNeRFphonetxt .text1,.IntroNeRFbtn{
+    width: 70%;
+    float: right;
+}
+
+.IntroNeRFbtn{
+    transition: .5s ease;
+}
+.IntroNeRFbtn:hover{
+    background-color: #d4bbd2;
+}
+
+/* The Best Features Any 3D App Can Offer */
+.firstSection1st{
+    padding-top: 50px;
+    font-family:lora;
+    width:100%;
+}
+.firstsectiondiv{
+    background-color: white;
+    width: 80%;
+    
+    font-family:lora;
+    border-top: 5px solid #6d1830;
+    border-right: 5px solid #6d1830;
+    border-top-right-radius: 12px;
+}
+.firstSectionh1{
+    text-align: center;
+}
+
+.firstSectionh2{
+
+}
+.industriesimg{
+    transition: 0.5s all ease-in-out;
+}
+.industriesimg:hover{
+    transform: scale(0.9);
+}
+
+/* Interactive and Collaborative work */
+
+.Interactive{
+    font-family:lora;
+}
+.interactiveh{
+    width:60%;
+}
+.interactiveh2{
+    width: 70%;
+}
+
+.interactivep{
+    width: 100%;
+}
+.interactivep2{
+    width: 70%;
+}
+.interactiveimg1{
+    padding-left: 10%;
+    padding-right: 30%;
+}
+
+.Interactiveimg{
+    transition: 0.5s all ease-in-out;
+}
+
+.Interactiveimg:hover{
+    transform: scale(0.9);
+}
+
+/* Top notch security */
+
+/* Top notch security section */
+.Topnotchsect{
+    background-color: #fff9f2;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    font-family:lora;
+}
+/* Top notch security div-container */
+.Topnotch{
+    background-color: white;
+    width: 85%;
+    padding: 60px;
+    align-items: center;
+    border-top:3px solid #6d1830; border-right: 3px solid #6d1830; border-radius: 20px;
+}
+
+/* Get started today with the best Immersive 3d experience */
+.Getstarted{
+    background-color: #14394c;
+    align-items: center;
+    color: white;
+    gap: 90px;
+    font-family:lora;
+}
+
+/* Easy and Simple */
+.EasyandSimple{
+    padding: 150px;
+    font-family:lora;
+}
+.EasyandSimplerow{
+    gap: 120px;
+    padding: 20px 50px;
+}
+
+.EasyandSimpletxt{
+    width:95%;
+    font-family:lora;
+}
+
+.EasyandSimplelfttxt{
+    width:65%;
+    padding: 10px;
+    font-family:lora;
+}
+
+/* What our clients say about us */
+.aboutus{
+    background-color: #fff9f2;
+    padding-top: 90px;
+    font-family:lora; 
+}
+.aboutus2div{
+    gap: 70px;
+    justify-content: center;
+    padding: 50px 50px 100px 50px;
+}
+.aboutus2div2{
+    padding: 30px 20px 30px 0;
+}
+.aboutustxt{
+    width: 100%;
+}
+
+/* Subscribe to our NEWSLETTER */
+.Subscribe{
+    background-color: #6d1830;
+    color: #fff9f2;
+    padding: 35px 100px;
+}
+.Subscribediv{
+    display: flex;
+    gap: 10px;
+}
+.Subscribedivtxt{
+    width:50%;
+    word-spacing:5px;
+}
+
+/* Footer */
+footer{
+    padding-left: 100px;
+    padding-top: 80px;
+}
+.footerdiv2{
+    display: flex;
+    gap: 450px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+.goggleplay{
+    margin-top:-80px;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(56, 54, 54);
+}
+
+.TermsofService{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+/* Hovers */
+
+/* The Best Features Any 3D App Can Offer Images */
+.firstSection{
+    padding-left:200px;
+}
+
+
+@media(max-width:576px) {
+    /* First Main */
+   .firstmain{
+        padding-top: 50px;
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+   }
+   .firstmaintext p{
+    width: 100%;
+   }
+
+   .Downloadnow{
+    display: block;
+   }
+   /* ClientsPartners */
+   .ClientsPartners{
+    padding: 20px 0px;
+   }
+   .ClientsPartners img{
+    width: 100%;
+   }
+
+   /* 2nd main */
+   .secondmain{
+    justify-content: center;
+   }
+   .secondmain h2,p{
+    width:80%;
+   }
+
+   /* Introducing NeRF */
+   .IntroNeRF{
+    height: 600px;
+    overflow: hidden;
+   }
+
+   .IntroNeRFphone{
+    text-align: center;
+    color: #14394c;
+   }
+
+   .IntroNeRF img{
+    margin-top:0%;
+    }
+
+   /* The Best Features Any 3D App Can Offer */
+
+   .firstsectiondiv{
+    padding:50px 0px;
+    color:rgb(80, 79, 79);
+   }
+   .firstSectionh2{
+    width:100%;
+    font-size:22px;
+    font-weight: bold;
+   }
+    /* Get started today with the best Immersive 3d experience */
+   .Getstarted{
+    text-align: center;
+    padding-bottom: 80px;
+   }
+   .Getstartedtxt{
+    width: auto;
+   }
+
+   /* Easy and Simple to use */
+   .EasyandSimpletxt{
+    width: 70%;
+   }
+
+   /* Subscribe to our NEWSLETTER */
+   .Subscribediv{
+    display: block;
+   }
+   .Subscribedivtxt{
+    width: 100%;
+   }
+   .Subscribeinput{
+    padding-bottom: 20px;
+   }
+
+   /* footer */
+   .footerdiv2{
+    display: block;
+   }
+   .goggleplay{
+    padding-top: 100px;
+    padding-bottom: 30px;
+   }
+   a:hover{
+    border-bottom:none;
+}
+}
+
+
+
+                            /* About Page styling sheet  */
+/* About ViewE Main */
+.AboutViewE{
+    background-color: #14394c;
+    color: white;
+    padding: 150px 0px 50px 90px;
+}
+
+.AboutViewEdiv{
+    gap: 220px;
+}
+.AboutViewEdiv2{
+    align-items: center;
+    display: flex;
+}
+
+/* Our Story */
+.OurStorymain{
+    background-color: #fff9f2;
+}
+.OurStory{
+    align-items: center;
+}
+.OurStorydiv img{
+    animation-name: example;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    position: relative;
+}
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    50%  {top:20px;}
+    100% { left:0px; top:0px;}
+  }
+
+/* Frequently Asked Questions */
+.accordionStructure{
+    width: 70%;
+    margin: 0 auto;
+}
+.Frequentlyaskedquestion{
+    text-align: center;
+}
+
+/* Our Mission */
+.OurMission{
+    background-color: #fff9f2;
+    height: 700px;
+    padding-top: 200px;
+}
+
+.OurMissiondiv1{
+    background-color: #14394c;
+    height: 300px;
+    margin-bottom: 200px;
+    font-family:lora;
+}
+.OurMissiondiv{
+    width: 90%;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.OurMissiondivtxt2{
+    margin-top: -200px;
+}
+
+
+
+@media(max-width:576px) {
+    /* About ViewE Main*/
+    .AboutViewEdiv2{
+        display: none;
+    }
+
+        /* Our Mission */
+    .OurMissiondiv1{
+        height: 600px;
+        overflow: hidden;
+    }
+    .OurMissiondivtxt2{
+        margin: 0%;
+    }
+
+    /* Frequently Asked Questions */
+    .accordionStructure{
+        width:  100%;
+    }
+}
+
+
+
+
+
+                /* -------Blog Styling sheet------- */
+/* Featured Article */
+.FeaturedArticle{
+    padding: 80px 0px;
+}
+.FeaturedArticle a{
+    text-decoration: none;
+    color: #6d1830;
+}
+.FeaturedArticlediv{
+    align-items: center;
+    color: rgb(73, 73, 73);
+    margin: 50px auto;
+    border: 1px solid rgb(173, 172, 172);
+    border-radius: 10px;
+    padding: 20px 0px 10px 20px;
+    width: 90%;
+}
+.Readmore:hover{
+  animation-name: readmore;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  position: relative; 
+}
+@keyframes readmore {
+    0%   {left:0px; top:0px;}
+    50%  {left:20px; top:0px;}
+    100% { left:0px; top:0px;}
+}
+
+            /* Latest Articles */
+
+.LatestArticlesmain a{
+    text-decoration: none;
+    color: #6d1830;
+}
+.LatestArticlesdiv{
+    gap: 50px;
+}
+.LatestArticlesdiv1text{
+    width: 100%;
+}
+.LatestArticlesdiv1txt{
+    width: 100%;
+}
+
+/* --------- Pagination ------- */
+.Previous a{
+    border: none;
+    color: #6d1830;
+}
+
+.Previous{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+
+
+                /* -------Blog Styling sheet 3------- */
+
+.RealEstatetxt{
+    width: 100%;
+}
+
+@media(max-width:576px) {
+    .AmaraTappi{
+        padding: 30px;
+    }
+                    /* Contact Styling Sheet */
+    .groupmeeting{
+        display: none;
+    }
+}
+
+
+                /* Download Styling Sheet */
+.AndroidIOS{
+    background-color: #fff9f2;
+  }
+
+.AndroidIOSdiv{
+    background-color: #fff9f2;
+ }
+
+.AndroidIOStxt{
+    width: 80%;
+}
+     /* <!-- Kindly Make sure your device supports markerless AR apps. --> */
+.devicessupport{
+    background-color: #fff9f2;
+}
+
+.devicessupportdiv{
+    background-color: #14394c;
+    padding: 40px;
+    color: white;
+}
+.devicessupporttxt{
+    width: 80%;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+/* Frequenty Asked Questions */
+.FAQ{
+    padding-top: 50px;
+}
+
+label{
+    font-weight: bold;
+}
+
+/* Styling sheet for Contact */
+.HelpSupport p{
+    color: grey;
+}
+.Getstartednew{
+    background-color: #14394c;
+}groupmeeting
