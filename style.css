@@ -98,7 +98,6 @@ a:hover{
 .firstsectiondiv{
     background-color: white;
     width: 80%;
-    
     font-family:lora;
     border-top: 5px solid #6d1830;
     border-right: 5px solid #6d1830;
@@ -153,14 +152,16 @@ a:hover{
     background-color: #fff9f2;
     padding-top: 50px;
     padding-bottom: 70px;
-    padding-left:200px;
     font-family:lora;
+    padding-left: 200px;
+}
+.Topnotchdiv{
+    width: 100%;
 }
 /* Top notch security div-container */
 .Topnotch{
     background-color: white;
     width: 85%;
-    padding: 60px;
     align-items: center;
     border-top:3px solid #6d1830; border-right: 3px solid #6d1830; border-radius: 20px;
 }
@@ -295,7 +296,7 @@ footer a{
 
    /* Introducing NeRF */
    .IntroNeRF{
-    height: 600px;
+    height: 500px;
     overflow: hidden;
    }
 
@@ -311,8 +312,12 @@ footer a{
    /* The Best Features Any 3D App Can Offer */
 
    .firstsectiondiv{
-    padding:50px 0px;
+    width: 100%;
     color:rgb(80, 79, 79);
+   }
+   .firstSection{
+    margin-left: -100px;
+    padding-right: 50px;
    }
    .firstSectionh2{
     width:100%;
@@ -327,7 +332,13 @@ footer a{
    .Getstartedtxt{
     width: auto;
    }
-
+.Topnotchsect{
+    margin-left: -100px;
+    padding-right: 50px;
+}
+.Topnotch{
+    width: 100%;
+}
    /* Easy and Simple to use */
    .EasyandSimpletxt{
     width: 70%;
