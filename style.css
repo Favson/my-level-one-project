@@ -264,6 +264,9 @@ footer a{
 
 
 @media(max-width:576px) {
+    .homenav{
+        padding-left: 0px;
+    }
     /* First Main */
    .firstmain{
         padding-top: 50px;
@@ -448,6 +451,7 @@ footer a{
         /* Our Mission */
     .OurMissiondiv1{
         height: 600px;
+        text-align: center;
         overflow: hidden;
     }
     .OurMissiondivtxt2{
