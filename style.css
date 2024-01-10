@@ -177,7 +177,7 @@ a:hover{
 
 /* Easy and Simple */
 .EasyandSimple{
-    padding: 150px;
+    padding: 80px;
     font-family:lora;
 }
 .EasyandSimplerow{
@@ -191,7 +191,7 @@ a:hover{
 }
 
 .EasyandSimplelfttxt{
-    width:65%;
+    width:100%;
     padding: 10px;
     font-family:lora;
 }
@@ -203,7 +203,7 @@ a:hover{
     font-family:lora; 
 }
 .aboutus2div{
-    gap: 70px;
+    gap:30px;
     justify-content: center;
     padding: 50px 50px 100px 50px;
 }
@@ -319,9 +319,8 @@ footer a{
     color:rgb(80, 79, 79);
    }
    .firstSection{
-    margin-left: -100px;
-    padding-right: 50px;
-   }
+    padding-left:0px;
+}
    .firstSectionh2{
     width:100%;
     font-size:22px;
@@ -336,8 +335,7 @@ footer a{
     width: auto;
    }
 .Topnotchsect{
-    margin-left: -100px;
-    padding-right: 50px;
+    padding-left:0px;
 }
 .Topnotch{
     width: 100%;
@@ -346,6 +344,9 @@ footer a{
    .EasyandSimpletxt{
     width: 70%;
    }
+   .EasyandSimple{
+    padding: 0px;
+    }
 
    /* Subscribe to our NEWSLETTER */
    .Subscribediv{
@@ -449,10 +450,17 @@ footer a{
     }
 
         /* Our Mission */
+    .OurMissiondivtxt{
+        width: 100%;
+        text-align: justify;
+    }
     .OurMissiondiv1{
         height: 600px;
         text-align: center;
         overflow: hidden;
+    }
+    .OurMissiondivimg{
+        display: none;
     }
     .OurMissiondivtxt2{
         margin: 0%;
@@ -587,4 +595,13 @@ label{
 }
 .Getstartednew{
     background-color: #14394c;
+}
+
+.details{
+    display: flex;
+}
+@media(max-width:576px) {
+    .details{
+        display: block;
+    }
 }
