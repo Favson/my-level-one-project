@@ -2,15 +2,14 @@ body{
     overflow-x:hidden;
 }
 
-
 .homenav{
     padding-left: 300px;
 }
 #homenavdiv{
-    
     padding-left: 50px;
     padding-right: 40px;
 }
+
 .homenavul{
     gap: 25px;
 }
